@@ -88,6 +88,99 @@
         <h1>Reported posts</h1>
       </div>
     </main>
+    <section id="bonus-Part">
+      <article class="container">
+        <div class="card">
+          <h5 class="card-header"><b>Q:</b>How does Javascript Work?</h5>
+          <div class="card-body">
+            <p class="card-text"><b>A:</b>  
+                জাভা স্ক্রিপ্ট হল scripting Language. 
+                <br />
+                বর্তমানে ওয়েব সাইটকে ডাইনোমিক করার জন্য জাভাস্ক্রিপ্ট একটি জনপ্রিয়
+                language.
+                <br />
+                এটি ক্লায়েন্ট সাইট ও সার্ভার সাইটে ব্যবহার করা হয়। ক্লায়েন্ট সাইট
+                ব্রাউজারে রান‌ করে, আর সার্ভার সাইড থেকে নোড-জেএস এর মাধ্যমে কোড
+                জেনারেট হয়।
+                <br />
+                JavaScript হল Interpreted Language এটাকে কম্পাইলার দ্বারা কম্পাইল
+                করে মেশিন ল্যনগুয়েজে পরিনত করা যায়।
+                <br />
+                জাভা স্ক্রিপ্ট ব্রাউজারে ব্যবহার করার জন্য সোর্স কোড কে নিয়ে
+                ব্রাউজারে অবস্থিত ভি৮ ইঞ্জিন (just in time (JIT) compailar turbofan)
+                দিয়ে লাইন বাই লাইন কম্পাইল করে মেশিন ল্যানগুয়েজ পরিনত করে সেটা
+                কম্পিউটার বুঝতে পারে। এরপর সেই কোড গুলোকে ব্রাউজারে রান‌ করে।
+              </p>
+          </div>
+        </div>
+      </article>
+      <article class="container my-2">
+        <div class="card">
+          <h5 class="card-header"><b>Q:</b>What does javascript Even Loop do?</h5>
+          <div class="card-body">
+            <p class="card-text"><b>A:</b>
+          ইভেন্ট লুপ হচ্ছে জাভা স্ক্রিপ্ট রান টাইমে কিভাবে কাজ করে সেটা।
+          <br />
+          ইভেন্ট লুপ চলার সময় রানটাইম সারিতে থাকা ডাটা গুলো নিয়ে একটা Stack
+          ফ্রেম তৈরি করে।
+          <br />
+          লুপ চলার সময় যে ডাটা গুলোর Function বা setTimeout থাকে তাদের কে Queue
+          লিস্টে প্রেরন করে।
+          <br />
+          Stack খালি না হ ওয়া পর্যন্ত এই লুপটির প্রক্রিরয়াকরণ চলতে থাকে। যখন
+          Stack থাকা ডাটা গুলো শেষ হয় তখন Queue লিস্টে থাকা ডাটা গুলোর
+          প্রক্রিরয়াকরণ শুরু হয়। এভাবে সকল ডাটার প্রক্রিরয়াকরণ শেষ হওয়ার
+          মাধ্যমে ইভেন্ট লুপ বন্ধ হয়।</p>
+          </div>
+        </div>
+      </article>
+      <article class="container my-2">
+        <div class="card">
+          <h5 class="card-header"><b>Q:</b>localStorage?</h5>
+          <div class="card-body">
+            <p class="card-text"><b>A:</b>
+          <b>Local storage: </b> <br />
+          <ul>
+            <li>ইউজার যেসব ডাটা ব্যবহার করে তা ব্রাউজারের লোকাল স্টোরেজ জমা হয়। এই
+          ডাটা গুলো সংরক্ষিত থাকে এবং পরবর্তীতে অ্যাকসেস করা যায়।</li>
+            <li>এই টেব বন্ধ করে পুনরায় চালু করলে সেই ডাটা গুলো পুনরায় পাওয়া যায়।</li>
+            <li> আবার ব্রাউজারের টেব পরিবর্তন করে অন্য টেব থেকেও ‌এই ডাটা অ্যাকসেস করা
+          যায়। । প্রতিটি নতুন টেবের জন্য ডাটা একই থাকে।</li>
+            <li>ইউজার চাইলে নতুন কোনো ডাটা সংযোগ করতে পারে। অথবা কোনো ডাটাকে ডিলিট
+          করেও ফেলতে পারে।</li>
+            <li> লোকাল স্টোরেজে ডাটা যোগ করতে <br />
+          localStorage.setItem() </li>
+            <li> লোকাল স্টোরেজের ডাটা দেখতে করতে <br />
+          localStorage.getItem()</li>
+            <li>লোকাল স্টোরেজে ডাটা রিমোভ করতে <br />
+          localStorage.removeItem()</li>
+            <li>লোকাল স্টোরেজের সকল ডাটা সরাতে <br />
+          localStorage.clear()</li>
+          </ul></p>
+          </div>
+        </div>
+      </article>
+      <article class="container">
+        <div class="card">
+          <h5 class="card-header"><b>Q:</b>What does javascript Even Loop do?</h5>
+          <div class="card-body">
+            <p class="card-text"><b>A:</b>
+          <b>Session Storage: </b> <br />
+          <ul>
+            <li>ব্যবহারকারী যেসব ডাটা ব্যবহার করে তা ব্রাউজারের সেসন স্টোরেজ এ জমা
+          থাকে।</li>
+            <li>এই ডাটা গুলো ততক্ষণ‌ পর্যন্ত সংরক্ষিত থাকবে যতক্ষন ঐ টেব চালু
+          থাকবে।</li>
+            <li>যখন ঐ টেব বন্ধ করা হয় তখন এই ডাটা গুলো হারিয়ে যায়। পরবর্তীতে
+          আর ঐ ডাটা গুলো অ্যাকসেস করা যায় না।</li>
+            <li>ব্রাউজারের টেব পরিবর্তন করলে
+          অন্য টেবে ঐ ডাটা পাওয়া যায় না । প্রতিটি নতুন টেবের জন্য নতুন পেইজ
+          তৈরি হয়।</li>
+            </ul></p>
+          </div>
+        </div>
+      </article>
+    </section>
     <footer></footer>
 
     <!-- add javascript  file  -->
